@@ -1,0 +1,47 @@
+﻿@model Bd.GithubAnalyzer.Models.Github.OrganizationDetail
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div>
+        <h2 class="display-2">
+            <a href="@Model.GithubUrl">
+                @Model.Name
+            </a>
+        </h2>
+
+        <h3>Statistics</h3>
+        <p>
+            Total PRs: @Model.Pulls.Count()
+        </p>
+        <p>
+            Open PRs: @Model.Pulls.Where(p => p.IsOpen).Count()
+        </p>
+
+        <div class="list-group">
+
+            @foreach (var repo in Model.Repositories)
+            {
+                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">
+                            <a href="@repo.GithubUrl">
+                                @repo.Name
+                            </a>
+                        </h5>
+                        <small>Last updated: @repo.LastUpdated</small>
+                    </div>
+                    <p class="mb-1">@repo.Description</p>
+                    <div>
+                        <span>Forks: </span><span class="fas fa-code-branch"></span> @repo.ForksCount
+                        &nbsp;
+                        <span>Issues: </span><span class="fas fa-exclamation-circle"></span> @repo.OpenIssuesCount
+                        &nbsp;
+                        <span>Total Pulls: </span><span class="fas fa-file-code"></span> @repo.Pulls.Count()
+                        &nbsp;
+                        <span>Open Pulls: </span><span class="fas fa-file-code"></span> @repo.Pulls.Where(uu => uu.IsOpen).Count()
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
