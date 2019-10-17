@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bd.GithubAnalyzer.Repository\Bd.GithubAnalyzer.Repository.csproj" />
+    <ProjectReference Include="..\Bd.GithubAnalyzer.Data\Bd.GithubAnalyzer.Data.csproj" />
   </ItemGroup>
 
 </Project>

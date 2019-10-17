@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Bd.GithubAnalyzer.Repository.Models
+namespace Bd.GithubAnalyzer.Data.Models.Github
 {
-	/// <summary>
-	/// Represents a Github Repository
-	/// Auto-generated from Visual Studio JSON -> Class functionality
-	/// </summary>
 	public class Repository
 	{
 		public int id { get; set; }

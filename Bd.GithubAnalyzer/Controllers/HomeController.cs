@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using Bd.GithubAnalyzer.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Bd.GithubAnalyzer.Models;
-using Bd.GithubAnalyzer.Repository;
 
 namespace Bd.GithubAnalyzer.Controllers
 {
@@ -26,9 +21,9 @@ namespace Bd.GithubAnalyzer.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult Index([FromBody] string organization)
+		public IActionResult Index([FromForm] string organization)
 		{
-			return RedirectToAction("Organization", "Github", new { organization });
+			return RedirectToAction("Organization", "Github", new { organizationId = organization });
 		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

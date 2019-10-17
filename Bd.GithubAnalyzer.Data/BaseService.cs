@@ -1,8 +1,9 @@
-﻿using System.Net.Http;
+﻿using System.IO;
+using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Bd.GithubAnalyzer.Repository
+namespace Bd.GithubAnalyzer.Data
 {
 	public abstract class BaseService
 	{
@@ -13,9 +14,8 @@ namespace Bd.GithubAnalyzer.Repository
 
 		public async Task<TResult> DeserializeResult<TResult>(HttpResponseMessage httpResponse)
 		{
-			var jsonResult = await httpResponse.Content.ReadAsStringAsync();
-
-			return JsonSerializer.Deserialize<TResult>(jsonResult);
+			var jsonStream =  await httpResponse.Content.ReadAsStreamAsync();
+			return await JsonSerializer.DeserializeAsync<TResult>(jsonStream);
 		}
 	}
 }

@@ -1,10 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Bd.GithubAnalyzer.Logic;
-using Bd.GithubAnalyzer.Models.Github;
-using Bd.GithubAnalyzer.Repository;
-using Bd.GithubAnalyzer.Repository.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -15,11 +10,13 @@ namespace Bd.GithubAnalyzer.Controllers
 	{
 		private readonly ILogger<HomeController> Logger;
 		private readonly IOrganizationDetailLogic OrganizationDetailLogic;
+		private readonly IGithubAnalyzer GithubAnalyzer;
 
-		public GithubController(ILogger<HomeController> logger, IOrganizationDetailLogic organizationDetailLogc)
+		public GithubController(ILogger<HomeController> logger, IOrganizationDetailLogic organizationDetailLogc, IGithubAnalyzer githubAnalyzer)
 		{
 			Logger = logger;
 			OrganizationDetailLogic = organizationDetailLogc;
+			GithubAnalyzer = githubAnalyzer;
 		}
 
 		[Route("organization/{organizationId}")]
@@ -33,6 +30,19 @@ namespace Bd.GithubAnalyzer.Controllers
 			}
 
 			return View(details);
+		}
+
+		[Route("organization/{organizationId}/analytics")]
+		public async Task<IActionResult> Analytics([FromRoute] string organizationId)
+		{
+			var analysis = await GithubAnalyzer.GetAnalytics(organizationId);
+
+			if (analysis == null)
+			{
+				RedirectToAction("NoResults", new { organizationId });
+			}
+
+			return View(analysis);
 		}
 
 		[Route("noresults/{organizationId}")]

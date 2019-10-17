@@ -1,6 +1,6 @@
 ﻿@model Bd.GithubAnalyzer.Models.Github.OrganizationDetail
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Organization Page";
 }
 
     <div>
@@ -16,6 +16,10 @@
         </p>
         <p>
             Open PRs: @Model.Pulls.Where(p => p.IsOpen).Count()
+        </p>
+
+        <p>
+            Click @Html.ActionLink("here", "Analytics", new { organizationId = @Model.Name }) for more analytics!
         </p>
 
         <div class="list-group">

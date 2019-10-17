@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bd.GithubAnalyzer.Repository.Models
+namespace Bd.GithubAnalyzer.Data.Models.Github
 {
 	public class PullRequest
 	{

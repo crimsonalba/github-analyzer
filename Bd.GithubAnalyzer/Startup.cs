@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Bd.GithubAnalyzer.Logic;
-using Bd.GithubAnalyzer.Repository;
+using Bd.GithubAnalyzer.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -50,7 +50,11 @@ namespace Bd.GithubAnalyzer
 				client.DefaultRequestHeaders.Add("Authorization", $"token {Configuration.GetValue<string>("GithubApiOAuthToken")}");
 			});
 
+			services.AddMemoryCache();
+
 			services.AddTransient<IOrganizationDetailLogic, OrganizationDetailLogic>();
+			services.AddTransient<IGithubRepository, GithubRepository>();
+			services.AddTransient<IGithubAnalyzer, Logic.GithubAnalyzer>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

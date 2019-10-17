@@ -1,60 +1,51 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Bd.GithubAnalyzer.Data;
+using Bd.GithubAnalyzer.Data.Models.Github;
 using Bd.GithubAnalyzer.Models.Github;
-using Bd.GithubAnalyzer.Repository;
-using Bd.GithubAnalyzer.Repository.Models;
 using Microsoft.Extensions.Logging;
 
 namespace Bd.GithubAnalyzer.Logic
 {
 	public class OrganizationDetailLogic : IOrganizationDetailLogic
 	{
-		private readonly IGithubService GithubService;
+		private readonly IGithubRepository GithubRepository;
 		private readonly ILogger<OrganizationDetailLogic> Logger;
 
-		public OrganizationDetailLogic(IGithubService githubService, ILogger<OrganizationDetailLogic> logger)
+		public OrganizationDetailLogic(IGithubRepository githubRepository, ILogger<OrganizationDetailLogic> logger)
 		{
-			GithubService = githubService;
+			GithubRepository = githubRepository;
 			Logger = logger;
 		}
 
 		public async Task<OrganizationDetail> GetOrganizationDetail(string organizationId)
 		{
-			var org = await GithubService.GetOrganization(organizationId);
+			var org = await GithubRepository.GetOrganization(organizationId);
 			
 			// Org was invalid, so just return null
 			if (org == null)
 			{
+				Logger.LogDebug($"No Github Organization was found for: {organizationId}");
 				return null;
 			}
 
-			var repos = await GithubService.GetRepositories(organizationId);
+			var repos = await GithubRepository.GetRepositories(organizationId);
 
 			var organizationRepos = new List<OrganizationRepository>();
 			var organizationPulls = new List<OrganizationPullRequest>();
 
 			foreach (var r in repos)
 			{
-				var allRawPulls = new List<PullRequest>();
 				var rawPulls = default(IEnumerable<PullRequest>);
 
-				// lets get _all_ PRs
-				var page = 1;
-
-				// while we still get results, keep getting them
-				while (true)
+				rawPulls = await GithubRepository.GetAllPullsForRepository(r, "all");
+				if (rawPulls == null || !rawPulls.Any())
 				{
-					rawPulls = await GithubService.GetPullsFromRepository(r, "all", page++);
-					if (rawPulls == null || !rawPulls.Any())
-					{
-						break;
-					}
-
-					allRawPulls.AddRange(rawPulls);
+					continue;
 				}
 
-				var repoPulls = allRawPulls.Select(rp => new OrganizationPullRequest()
+				var repoPulls = rawPulls.Select(rp => new OrganizationPullRequest()
 				{
 					Name = rp.title,
 					State = rp.state,
