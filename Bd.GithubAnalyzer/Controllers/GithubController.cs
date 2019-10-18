@@ -26,7 +26,7 @@ namespace Bd.GithubAnalyzer.Controllers
 
 			if (details == null)
 			{
-				RedirectToAction("NoResults", new { organizationId });
+				return RedirectToAction("NoResults", new { organizationId });
 			}
 
 			return View(details);
@@ -39,7 +39,7 @@ namespace Bd.GithubAnalyzer.Controllers
 
 			if (analysis == null)
 			{
-				RedirectToAction("NoResults", new { organizationId });
+				return RedirectToAction("NoResults", new { organizationId });
 			}
 
 			return View(analysis);

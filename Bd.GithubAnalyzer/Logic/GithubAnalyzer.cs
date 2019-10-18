@@ -19,6 +19,11 @@ namespace Bd.GithubAnalyzer.Logic
 		{
 			var allPrs = await GithubRepository.GetAllPullsForOrganization(organizationId);
 
+			if (allPrs == null || !allPrs.Any())
+			{
+				return null;
+			}
+
 			var totalCount = new TotalPrCountAnalyzer($" Total PR for organization: {allPrs.Count()}");
 
 			return new[] { totalCount };
