@@ -1,0 +1,1994 @@
+{
+  "Bd.GithubAnalyzer.Data.dll": {
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\BaseService.cs": {
+      "Bd.GithubAnalyzer.Data.BaseService": {
+        "System.Boolean Bd.GithubAnalyzer.Data.BaseService::IsSuccess(System.Net.Http.HttpResponseMessage)": {
+          "Lines": {
+            "11": 7,
+            "12": 7,
+            "13": 7
+          },
+          "Branches": []
+        }
+      },
+      "Bd.GithubAnalyzer.Data.BaseService/<DeserializeResult>d__1`1": {
+        "System.Void Bd.GithubAnalyzer.Data.BaseService/<DeserializeResult>d__1`1::MoveNext()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 8,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 8,
+              "EndOffset": 96,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 55,
+              "EndOffset": 124,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 196,
+              "EndOffset": 198,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 14,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 196,
+              "EndOffset": 264,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\GithubRepository.cs": {
+      "Bd.GithubAnalyzer.Data.GithubRepository": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository::SetCacheLimit(Microsoft.Extensions.Caching.Memory.ICacheEntry,System.Object)": {
+          "Lines": {
+            "92": 6,
+            "93": 6,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "100": 6,
+            "101": 6
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 7,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        },
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository::.ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,Bd.GithubAnalyzer.Data.IGithubService)": {
+          "Lines": {
+            "17": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4,
+            "25": 4
+          },
+          "Branches": []
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass4_0/<<GetOrganization>b__0>d": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass4_0/<<GetOrganization>b__0>d::MoveNext()": {
+          "Lines": {
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "36": 3
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 33,
+              "Offset": 60,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<GetOrganization>d__4": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<GetOrganization>d__4::MoveNext()": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "31": 2,
+            "37": 2
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 142,
+              "EndOffset": 208,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass5_0/<<GetRepositories>b__0>d": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass5_0/<<GetRepositories>b__0>d::MoveNext()": {
+          "Lines": {
+            "44": 5,
+            "45": 5,
+            "46": 5,
+            "47": 5,
+            "48": 5
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 45,
+              "Offset": 60,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<GetRepositories>d__5": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<GetRepositories>d__5::MoveNext()": {
+          "Lines": {
+            "40": 3,
+            "41": 3,
+            "43": 3,
+            "49": 3
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 142,
+              "EndOffset": 208,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass6_0/<<GetAllPullsForRepository>b__0>d": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass6_0/<<GetAllPullsForRepository>b__0>d::MoveNext()": {
+          "Lines": {
+            "56": 5,
+            "57": 5,
+            "58": 5,
+            "59": 5,
+            "60": 5
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 57,
+              "Offset": 71,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<GetAllPullsForRepository>d__6": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<GetAllPullsForRepository>d__6::MoveNext()": {
+          "Lines": {
+            "52": 3,
+            "53": 3,
+            "55": 3,
+            "61": 3
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 180,
+              "EndOffset": 246,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass7_0/<<GetAllPullsForOrganization>b__0>d": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<>c__DisplayClass7_0/<<GetAllPullsForOrganization>b__0>d::MoveNext()": {
+          "Lines": {
+            "67": 3,
+            "68": 3,
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 7,
+            "74": 3,
+            "75": 3,
+            "76": 3,
+            "77": 3,
+            "78": 3,
+            "79": 3,
+            "80": 3,
+            "81": 3,
+            "84": 3,
+            "86": 3,
+            "87": 3,
+            "88": 3
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 8,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 70,
+              "Offset": 77,
+              "EndOffset": 146,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 196,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 14,
+              "EndOffset": 215,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 452,
+              "EndOffset": 229,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 288,
+              "EndOffset": 359,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 76,
+              "Offset": 404,
+              "EndOffset": 406,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 1
+            },
+            {
+              "Line": 76,
+              "Offset": 404,
+              "EndOffset": 426,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 218,
+              "EndOffset": 441,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 73,
+              "Offset": 452,
+              "EndOffset": 457,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 492,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 84,
+              "Offset": 504,
+              "EndOffset": 506,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubRepository/<GetAllPullsForOrganization>d__7": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubRepository/<GetAllPullsForOrganization>d__7::MoveNext()": {
+          "Lines": {
+            "64": 2,
+            "65": 2,
+            "66": 2,
+            "69": 2,
+            "82": 2,
+            "83": 2,
+            "85": 2,
+            "89": 2
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 153,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\GithubService.cs": {
+      "Bd.GithubAnalyzer.Data.GithubService": {
+        "System.String Bd.GithubAnalyzer.Data.GithubService::GetNextLinkFromHeaders(System.Net.Http.HttpResponseMessage)": {
+          "Lines": {
+            "94": 7,
+            "96": 7,
+            "97": 5,
+            "98": 5,
+            "99": 5,
+            "100": 4,
+            "103": 8,
+            "104": 18,
+            "105": 4,
+            "106": 4,
+            "107": 4,
+            "108": 3,
+            "112": 3,
+            "113": 3,
+            "115": 3,
+            "116": 2,
+            "117": 2,
+            "119": 1,
+            "120": 2,
+            "121": 2,
+            "122": 3,
+            "124": 5,
+            "125": 7
+          },
+          "Branches": [
+            {
+              "Line": 96,
+              "Offset": 21,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 99,
+              "Offset": 45,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 103,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 103,
+              "Offset": 74,
+              "EndOffset": 99,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            },
+            {
+              "Line": 104,
+              "Offset": 231,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 4
+            },
+            {
+              "Line": 107,
+              "Offset": 154,
+              "EndOffset": 156,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 115,
+              "Offset": 213,
+              "EndOffset": 215,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 115,
+              "Offset": 213,
+              "EndOffset": 222,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 107,
+              "Offset": 154,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 104,
+              "Offset": 231,
+              "EndOffset": 233,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 2
+            },
+            {
+              "Line": 99,
+              "Offset": 45,
+              "EndOffset": 249,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 96,
+              "Offset": 21,
+              "EndOffset": 250,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Bd.GithubAnalyzer.Data.GithubService::.ctor(System.Net.Http.HttpClient)": {
+          "Lines": {
+            "12": 11,
+            "15": 11,
+            "16": 11,
+            "17": 11,
+            "18": 11
+          },
+          "Branches": []
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubService/<GetOrganization>d__3": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubService/<GetOrganization>d__3::MoveNext()": {
+          "Lines": {
+            "21": 2,
+            "22": 2,
+            "24": 2,
+            "25": 1,
+            "26": 1,
+            "29": 1,
+            "30": 2
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 22,
+              "Offset": 71,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 24,
+              "Offset": 196,
+              "EndOffset": 198,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 196,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 237,
+              "EndOffset": 305,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubService/<GetRepositories>d__4": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubService/<GetRepositories>d__4::MoveNext()": {
+          "Lines": {
+            "33": 3,
+            "34": 3,
+            "36": 3,
+            "37": 2,
+            "38": 2,
+            "41": 1,
+            "42": 3
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 34,
+              "Offset": 76,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 36,
+              "Offset": 201,
+              "EndOffset": 203,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 201,
+              "EndOffset": 211,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 242,
+              "EndOffset": 310,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Bd.GithubAnalyzer.Data.GithubService/<GetAllPullsFromRepository>d__5": {
+        "System.Void Bd.GithubAnalyzer.Data.GithubService/<GetAllPullsFromRepository>d__5::MoveNext()": {
+          "Lines": {
+            "45": 1,
+            "47": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "55": 1,
+            "57": 1,
+            "58": 0,
+            "59": 0,
+            "62": 1,
+            "63": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "70": 1,
+            "71": 2,
+            "72": 1,
+            "74": 1,
+            "75": 1,
+            "76": 0,
+            "77": 0,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "90": 1,
+            "91": 1
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 112,
+              "EndOffset": 114,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 112,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 179,
+              "EndOffset": 249,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 305,
+              "EndOffset": 315,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 63,
+              "Offset": 357,
+              "EndOffset": 429,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 474,
+              "EndOffset": 476,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 474,
+              "EndOffset": 496,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 904,
+              "EndOffset": 524,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 1
+            },
+            {
+              "Line": 74,
+              "Offset": 561,
+              "EndOffset": 633,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 689,
+              "EndOffset": 697,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 728,
+              "EndOffset": 800,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 82,
+              "Offset": 845,
+              "EndOffset": 847,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 1
+            },
+            {
+              "Line": 82,
+              "Offset": 845,
+              "EndOffset": 867,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 1
+            },
+            {
+              "Line": 71,
+              "Offset": 904,
+              "EndOffset": 909,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\CommentsLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.CommentsLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.CommentsLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\CommitsLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.CommitsLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.CommitsLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\HtmlLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.HtmlLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.HtmlLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\IssueLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.IssueLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.IssueLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\License.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.License": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.License::get_key()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.License::get_name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.License::get_spdx_id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.License::get_url()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.License::get_node_id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\Links.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.Links": {
+        "Bd.GithubAnalyzer.Data.Models.Github.SelfLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_self()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.HtmlLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_html()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.IssueLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_issue()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.CommentsLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_comments()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.ReviewCommentsLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_review_comments()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.ReviewCommentLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_review_comment()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.CommitsLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_commits()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.StatusesLink Bd.GithubAnalyzer.Data.Models.Github.Links::get_statuses()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\Organization.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.Organization": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_login()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Organization::get_id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_node_id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_url()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_repos_url()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_events_url()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_hooks_url()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_issues_url()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_members_url()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_public_members_url()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_avatar_url()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_description()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.Organization::get_name()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.Organization::get_company()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_blog()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.Organization::get_location()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.Organization::get_email()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Organization::get_is_verified()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Organization::get_has_organization_projects()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Organization::get_has_repository_projects()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Organization::get_public_repos()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Organization::get_public_gists()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Organization::get_followers()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Organization::get_following()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_html_url()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.Organization::get_created_at()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.Organization::get_updated_at()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Organization::get_type()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\Permissions.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.Permissions": {
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Permissions::get_admin()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Permissions::get_push()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Permissions::get_pull()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\PullCommit.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.PullCommit": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullCommit::get_label()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullCommit::get__ref()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullCommit::get_sha()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser Bd.GithubAnalyzer.Data.Models.Github.PullCommit::get_user()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.Repository Bd.GithubAnalyzer.Data.Models.Github.PullCommit::get_repo()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\PullRequest.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.PullRequest": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_url()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_id()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_node_id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_html_url()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_diff_url()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_patch_url()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_issue_url()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_number()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_state()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_locked()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_title()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_user()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_body()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_created_at()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_updated_at()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_closed_at()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_merged_at()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_merge_commit_sha()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_assignee()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Object[] Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_assignees()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Object[] Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_requested_reviewers()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Object[] Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_requested_teams()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Object[] Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_labels()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_milestone()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_commits_url()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_review_comments_url()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_review_comment_url()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_comments_url()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_statuses_url()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.PullCommit Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_head()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.PullCommit Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get__base()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.Links Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get__links()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.PullRequest::get_author_association()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\Repository.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.Repository": {
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_id()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_node_id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_name()": {
+          "Lines": {
+            "9": 5
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_full_name()": {
+          "Lines": {
+            "10": 5
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get__private()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser Bd.GithubAnalyzer.Data.Models.Github.Repository::get_owner()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_html_url()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_description()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_fork()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_url()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_forks_url()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_keys_url()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_collaborators_url()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_teams_url()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_hooks_url()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_issue_events_url()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_events_url()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_assignees_url()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_branches_url()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_tags_url()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_blobs_url()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_git_tags_url()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_git_refs_url()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_trees_url()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_statuses_url()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_languages_url()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_stargazers_url()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_contributors_url()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_subscribers_url()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_subscription_url()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_commits_url()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_git_commits_url()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_comments_url()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_issue_comment_url()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_contents_url()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_compare_url()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_merges_url()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_archive_url()": {
+          "Lines": {
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_downloads_url()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_issues_url()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_pulls_url()": {
+          "Lines": {
+            "47": 3
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_milestones_url()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_notifications_url()": {
+          "Lines": {
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_labels_url()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_releases_url()": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_deployments_url()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.Repository::get_created_at()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.Repository::get_updated_at()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Bd.GithubAnalyzer.Data.Models.Github.Repository::get_pushed_at()": {
+          "Lines": {
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_git_url()": {
+          "Lines": {
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_ssh_url()": {
+          "Lines": {
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_clone_url()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_svn_url()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_homepage()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_size()": {
+          "Lines": {
+            "61": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_stargazers_count()": {
+          "Lines": {
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_watchers_count()": {
+          "Lines": {
+            "63": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_language()": {
+          "Lines": {
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_has_issues()": {
+          "Lines": {
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_has_projects()": {
+          "Lines": {
+            "66": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_has_downloads()": {
+          "Lines": {
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_has_wiki()": {
+          "Lines": {
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_has_pages()": {
+          "Lines": {
+            "69": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_forks_count()": {
+          "Lines": {
+            "70": 0
+          },
+          "Branches": []
+        },
+        "System.Object Bd.GithubAnalyzer.Data.Models.Github.Repository::get_mirror_url()": {
+          "Lines": {
+            "71": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_archived()": {
+          "Lines": {
+            "72": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.Repository::get_disabled()": {
+          "Lines": {
+            "73": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_open_issues_count()": {
+          "Lines": {
+            "74": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.License Bd.GithubAnalyzer.Data.Models.Github.Repository::get_license()": {
+          "Lines": {
+            "75": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_forks()": {
+          "Lines": {
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_open_issues()": {
+          "Lines": {
+            "77": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.Repository::get_watchers()": {
+          "Lines": {
+            "78": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.Repository::get_default_branch()": {
+          "Lines": {
+            "79": 0
+          },
+          "Branches": []
+        },
+        "Bd.GithubAnalyzer.Data.Models.Github.Permissions Bd.GithubAnalyzer.Data.Models.Github.Repository::get_permissions()": {
+          "Lines": {
+            "80": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\RepositoryUser.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_login()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_id()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_node_id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_avatar_url()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_gravatar_id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_url()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_html_url()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_followers_url()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_following_url()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_gists_url()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_starred_url()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_subscriptions_url()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_organizations_url()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_repos_url()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_events_url()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_received_events_url()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_type()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Bd.GithubAnalyzer.Data.Models.Github.RepositoryUser::get_site_admin()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\ReviewCommentLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.ReviewCommentLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.ReviewCommentLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\ReviewCommentsLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.ReviewCommentsLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.ReviewCommentsLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\SelfLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.SelfLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.SelfLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\bobby\\dev\\github-analyzer\\Bd.GithubAnalyzer.Data\\Models\\Github\\StatusesLink.cs": {
+      "Bd.GithubAnalyzer.Data.Models.Github.StatusesLink": {
+        "System.String Bd.GithubAnalyzer.Data.Models.Github.StatusesLink::get_href()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
