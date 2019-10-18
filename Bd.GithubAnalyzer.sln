@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bd.GithubAnalyzer", "Bd.Git
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bd.GithubAnalyzer.Data", "Bd.GithubAnalyzer.Data\Bd.GithubAnalyzer.Data.csproj", "{5C8CB65F-1194-40E1-BFE6-8775C52BD5CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bd.GithubAnalyzer.Data.Tests", "Bd.GithubAnalyzer.Data.Tests\Bd.GithubAnalyzer.Data.Tests.csproj", "{632F26EF-6CEA-40C5-890E-B5AC121D3B83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2B766C2B-BBF7-4859-8C0D-0BE7CAABB02D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,10 @@ Global
 		{5C8CB65F-1194-40E1-BFE6-8775C52BD5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C8CB65F-1194-40E1-BFE6-8775C52BD5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C8CB65F-1194-40E1-BFE6-8775C52BD5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632F26EF-6CEA-40C5-890E-B5AC121D3B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632F26EF-6CEA-40C5-890E-B5AC121D3B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632F26EF-6CEA-40C5-890E-B5AC121D3B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632F26EF-6CEA-40C5-890E-B5AC121D3B83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

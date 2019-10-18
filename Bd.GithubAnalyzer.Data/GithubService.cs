@@ -1,11 +1,9 @@
-﻿using Bd.GithubAnalyzer.Data.Models;
-using Bd.GithubAnalyzer.Data.Models.Github;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Bd.GithubAnalyzer.Data.Models.Github;
 
 namespace Bd.GithubAnalyzer.Data
 {
@@ -19,9 +17,9 @@ namespace Bd.GithubAnalyzer.Data
 			HttpClient = httpClient;
 		}
 
-		public async Task<Organization> GetOrganization(string organziation)
+		public async Task<Organization> GetOrganization(string organization)
 		{
-			var result = await HttpClient.GetAsync($"/orgs/{organziation}");
+			var result = await HttpClient.GetAsync($"/orgs/{organization}");
 
 			if (!IsSuccess(result))
 			{
@@ -31,9 +29,9 @@ namespace Bd.GithubAnalyzer.Data
 			return await DeserializeResult<Organization>(result);
 		}
 
-		public async Task<IEnumerable<Repository>> GetRepositories(string organziation)
+		public async Task<IEnumerable<Repository>> GetRepositories(string organization)
 		{
-			var result = await HttpClient.GetAsync($"/orgs/{organziation}/repos");
+			var result = await HttpClient.GetAsync($"/orgs/{organization}/repos");
 
 			if (!IsSuccess(result))
 			{
@@ -92,7 +90,7 @@ namespace Bd.GithubAnalyzer.Data
 			return allPullRequests;
 		}
 
-		private string GetNextLinkFromHeaders(HttpResponseMessage result)
+		public string GetNextLinkFromHeaders(HttpResponseMessage result)
 		{
 			// If there were multiple pages, we should have a Link header
 			if (result.Headers.TryGetValues("Link", out var linkHeaders))

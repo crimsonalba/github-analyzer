@@ -12,7 +12,7 @@ namespace Bd.GithubAnalyzer.Data
 			return httpResponse.IsSuccessStatusCode;
 		}
 
-		public async Task<TResult> DeserializeResult<TResult>(HttpResponseMessage httpResponse)
+		public virtual async Task<TResult> DeserializeResult<TResult>(HttpResponseMessage httpResponse)
 		{
 			var jsonStream =  await httpResponse.Content.ReadAsStreamAsync();
 			return await JsonSerializer.DeserializeAsync<TResult>(jsonStream);

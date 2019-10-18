@@ -24,25 +24,25 @@ namespace Bd.GithubAnalyzer.Data
 			GithubService = githubService;
 		}
 
-		public async Task<Organization> GetOrganization(string organziation)
+		public async Task<Organization> GetOrganization(string organization)
 		{
-			var cacheKey = $"GetOrganization-{nameof(organziation)}:{organziation}";
+			var cacheKey = $"GetOrganization-{nameof(organization)}:{organization}";
 
 			return await MemoryCache.GetOrCreateAsync(cacheKey, async (entry) =>
 			{
-				var result = await GithubService.GetOrganization(organziation);
+				var result = await GithubService.GetOrganization(organization);
 				SetCacheLimit(entry, result);
 				return result;
 			});
 		}
 
-		public async Task<IEnumerable<Repository>> GetRepositories(string organziation)
+		public async Task<IEnumerable<Repository>> GetRepositories(string organization)
 		{
-			var cacheKey = $"GetRepositories-{nameof(organziation)}:{organziation}";
+			var cacheKey = $"GetRepositories-{nameof(organization)}:{organization}";
 
 			return await MemoryCache.GetOrCreateAsync(cacheKey, async (entry) =>
 			{
-				var result = await GithubService.GetRepositories(organziation);
+				var result = await GithubService.GetRepositories(organization);
 				SetCacheLimit(entry, result);
 				return result;
 			});
@@ -60,14 +60,14 @@ namespace Bd.GithubAnalyzer.Data
 			});
 		}
 
-		public async Task<IEnumerable<PullRequest>> GetAllPullsForOrganization(string organziation, string state = "all")
+		public async Task<IEnumerable<PullRequest>> GetAllPullsForOrganization(string organization, string state = "all")
 		{
-			var cacheKey = $"GetAllPullsForOrganization-{nameof(organziation)}:{organziation}-{nameof(state)}:{state}";
+			var cacheKey = $"GetAllPullsForOrganization-{nameof(organization)}:{organization}-{nameof(state)}:{state}";
 			return await MemoryCache.GetOrCreateAsync(cacheKey, async (entry) =>
 			{
 				var result = new List<PullRequest>();
 
-				var repositories = await GetRepositories(organziation);
+				var repositories = await GetRepositories(organization);
 				if (repositories != null)
 				{
 					foreach (var repo in repositories)
@@ -92,7 +92,7 @@ namespace Bd.GithubAnalyzer.Data
 		{
 			if (result == null)
 			{
-				// if the result is null, lets not cache it.
+				// if the result is null, lets not _actually_ cache it.
 				cacheEntry.SetAbsoluteExpiration(TimeSpan.FromMilliseconds(1));
 				return;
 			}
