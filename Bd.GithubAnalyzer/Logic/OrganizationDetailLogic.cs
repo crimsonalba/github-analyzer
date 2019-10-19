@@ -37,13 +37,9 @@ namespace Bd.GithubAnalyzer.Logic
 
 			foreach (var r in repos)
 			{
-				var rawPulls = default(IEnumerable<PullRequest>);
-
-				rawPulls = await GithubRepository.GetAllPullsForRepository(r, "all");
-				if (rawPulls == null || !rawPulls.Any())
-				{
-					continue;
-				}
+				// if the repo call returns null, will default to empty list.
+				var rawPulls = await GithubRepository.GetAllPullsForRepository(r, "all")
+					?? new PullRequest[] { };
 
 				var repoPulls = rawPulls.Select(rp => new OrganizationPullRequest()
 				{
